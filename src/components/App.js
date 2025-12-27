@@ -9,7 +9,7 @@ const App = () => {
       <h1>Parent Component</h1>
 
       {isLoggedIn ? (
-        <h2>Login Successful</h2>
+        <p>You are logged in!</p>
       ) : (
         <Login isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
       )}
